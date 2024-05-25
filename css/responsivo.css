@@ -1,0 +1,127 @@
+
+/* Estilo para tablets (largura máxima de 768px) */
+@media (max-width: 768px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        padding: 1rem 0;
+        margin-bottom: 20px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .produtos {
+        width: 100%;
+    }
+
+    .lista-produtos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .titulo{
+        margin-top: 15px;
+    }
+
+    .formulario-campo input {
+        width: 100%;
+    }
+
+    .btn-salvar, .btn-limpar {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .rodape{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .rodape-title{
+        font-size: 15px;
+    }
+}
+
+/* Estilo para celulares (largura máxima de 425px) */
+@media (max-width: 425px) {
+    header {
+        padding: 0.5rem 0;
+    }
+    .add-produtos{
+        order: 1;
+    }
+
+    main {
+        margin: 10px;
+    }
+
+    .produtos {
+        width: 100%;
+        order: 2;
+    }
+
+    .lista-produtos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+
+
+    h2 {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .titulo{
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .formulario-campo{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .formulario-campo input {
+        width: 350px;
+        height: 58px;
+      
+    }
+
+    .botoes {
+        text-align: center;
+        gap: 13px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        
+    }
+    .btn-salvar{
+        width: 170px;
+        height: 55px;
+        margin-right: 5px;
+    }
+    .btn-limpar{
+        width: 170px;
+        height: 55px;
+        margin-left: 5px;
+    }
+}

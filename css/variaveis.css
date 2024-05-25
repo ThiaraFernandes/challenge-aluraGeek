@@ -1,0 +1,7 @@
+:root{
+    --font-primaria: "Press Start 2P", system-ui;
+    --font-secundaria: "IBM Plex Mono", monospace;
+    --cor-primaria: #5300C8;
+    --cor-secundaria:  #E5E5E5;
+    --cor-borda: #03318C;
+}

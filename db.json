@@ -1,0 +1,84 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Stormtrooper",
+      "imagem": "https://images.unsplash.com/photo-1620138694717-07141b500f57?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "alt": "foto do copo stormtrooper",
+      "quantidade": 5,
+      "preco": 60,
+      "categoria": "utensílios",
+      "status": true
+    },
+    {
+      "id": "2",
+      "nome": "GameBoy",
+      "imagem": "https://p.turbosquid.com/ts-thumb/Kp/o2wfBI/0Y/classic_gameboy_000/png/1664445022/600x600/fit_q87/fa080f05a4c69798ceb8d3fd92eba55bbba2ab3e/classic_gameboy_000.jpg",
+      "alt": "foto do gameboy",
+      "quantidade": 5,
+      "preco": 55,
+      "categoria": "jogos",
+      "status": true
+    },
+    {
+      "id": "3",
+      "nome": "BrickGame",
+      "imagem": "https://1619028l.ha.azioncdn.net/img/2023/06/produto/192597/game-h19714-azul.jpg?ims=fit-in/600x900/filters:fill(white)",
+      "alt": "foto do brickgame",
+      "quantidade": 5,
+      "preco": 10,
+      "categoria": "jogos",
+      "status": true
+    },
+    {
+      "id": "4",
+      "nome": "Tamagotchi",
+      "imagem": "https://www.lojassantaifigenia.com.br/blog/wp-content/uploads/2019/10/BRINQUEDOS-ANTIGOS-Bichinho-Virtual.jpg",
+      "alt": "foto do tamagtchi",
+      "quantidade": 5,
+      "preco": 30,
+      "categoria": "jogos",
+      "status": true
+    },
+    {
+      "id": "5",
+      "nome": "MiniGame",
+      "imagem": "https://ae01.alicdn.com/kf/Hdd1cce13727c4040907cee3e634cdefal/Mini-Game-Console-Eletr-nico-Retro-Video-Game-para-Crian-as-Chaveiro-Pingente-Pendurado-Decora-o.jpg",
+      "alt": "foto minigame",
+      "quantidade": 5,
+      "preco": 90,
+      "categoria": "jogos",
+      "status": true
+    },
+    {
+      "id": "6",
+      "nome": "CarrinhoControle",
+      "imagem": "https://d1o6h00a1h5k7q.cloudfront.net/imagens/img_m/18894/8803067.jpg",
+      "alt": "foto do carrinho de controle remoto",
+      "quantidade": 5,
+      "preco": 200,
+      "categoria": "jogos",
+      "status": true
+    },
+    {
+      "id": "7",
+      "nome": "Aquaplay",
+      "imagem": "https://s2.glbimg.com/9p2TFDX7MnuXAGjZki52XxKDBtk=/smart/e.glbimg.com/og/ed/f/original/2014/10/08/aquaplay.jpg",
+      "alt": "foto do aquaplay",
+      "quantidade": 5,
+      "preco": 20,
+      "categoria": "jogos",
+      "status": true
+    },
+    {
+      "id": "8",
+      "nome": "Tracomagico",
+      "imagem": "https://i.pinimg.com/564x/be/86/d3/be86d3622010f64acf12f534052f80f6.jpg",
+      "alt": "foto do traco Magico",
+      "quantidade": 5,
+      "preco": "15",
+      "categoria": "jogos",
+      "status": true
+    }
+  ]
+}

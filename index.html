@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/variaveis.css">
+</head>
+<body>
+   <!-- CABEÇALHO -->
+    <header>
+        <img src="imagens/Logo.svg" alt="Logo AluraGeek">
+    </header>
+    
+    <main>
+   <!-- PRODUTOS -->
+        <section class="produtos">
+            <div class="cards" >
+                <h2 class="meus-produtos">MEUS PRODUTOS:</h2>
+                <ul class="lista-produtos" data-lista></ul> 
+
+                <!-- <img class="delete-icone" src="imagens/Vector-delete.png" alt="icone do delete"/> -->
+            </div>
+            
+        </section>
+
+   <!-- FORMULÁRIO -->
+        <section class="add-produtos">
+            <h2 class="titulo">ADICIONAR PRODUTO:</h2>
+
+            <form id="produto-form" data-formulario>
+                <fieldset>
+                    
+                    <div class="formulario-campo">
+                        <input type="text" id="nome" placeholder="Nome..." name="nome" required data-nome>
+                    </div>
+                    <div class="formulario-campo">
+                        <input type="text" id="valor" placeholder="Valor..." name="valor" required data-valor>
+                    </div>
+                    <div class="formulario-campo">
+                        <input type="text" id="imagem" placeholder="Imagem..." name="imagem" data-imagem>
+                    </div>
+                    <div class="botoes">
+                        <button type="submit" class="btn-salvar">Salvar</button>
+                        <button type="reset" class="btn-limpar" id="limpar">Limpar</button>
+                    </div>
+                </fieldset>
+            </form>
+
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <div class="rodape"> 
+        <img src="imagens/Logo.svg" alt="Logo AluraGeek">
+            <h3 class="rodape-title">Desenvolvido por Thiara Fernandes</h3>
+            <h3 class="rodape-title">2024</h3>
+        </div>
+
+        <script src="js/script.js" type="module"></script>
+        <script src="js/conectaApi.js" type="module"></script>
+        <script src="js/exibirProdutos.js" type="module"></script>
+        
+</body>
+</html>
